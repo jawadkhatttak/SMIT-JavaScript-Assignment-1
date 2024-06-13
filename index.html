@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <script>
+    alert("Grade Calculator Program")
+    let marks = +prompt("Put your marks here : ");
+    if (marks > 100) {
+      alert(`Your marks are ${marks} and your marks should be 1-100`);
+    } else if (marks >= 90 && marks <= 100) {
+      alert(`Your marks are ${marks} and your grade is A`);
+    } else if (marks >= 80 && marks < 90) {
+      alert(`Your marks are ${marks} and your grade is B`);
+    } else if (marks >= 70 && marks < 80) {
+      alert(`Your marks are ${marks} and your grade is C`);
+    } else if (marks >= 60 && marks < 70) {
+      alert(`Your marks are ${marks} and your grade is D`);
+    } else if (marks >= 50 && marks < 60) {
+      alert(`Your marks are ${marks} and your grade is F`);
+    } else {
+      alert(`Your marks are ${marks} and your are failed`);
+    }
+    </script>
+</body>
+</html>
